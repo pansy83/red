@@ -1,0 +1,119 @@
+.top{
+   
+   
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+  height: 70px;
+  background-color: rgb(228, 71, 71);
+}
+ .photo1{
+   height:70px;
+ }
+ .bar-left{margin-left:150px}
+
+ a{
+  text-decoration: none;
+  color:grey;
+ }
+ 
+ .search{
+  outline:none;
+  width:210px;
+  height: 24px;
+  border-radius: 15px;
+  border:2px solid  rgb(228, 71, 71);
+  background-color: rgb(208, 73, 73);
+ }
+ .result{
+  display: none;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 30px;
+  width:300px;
+  border:2px solid rgb(228, 71, 71);
+  background-color: #fff;
+  
+ }
+ .resultList{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  list-style: none;
+  border: 2px solid rgb(228, 71, 71);
+ 
+ }
+.resultList a{
+  font-size: 15px;
+  text-decoration: none;
+ 
+}
+ .ok{
+
+  color:rgb(227, 219, 219)
+ }
+
+ .box1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width:300px;
+  height:770px;
+  background-color:pink;
+ }
+ 
+ 
+ .box2{
+  height: 90px;
+
+  background-color: aqua;
+ }
+ .nickname{
+  margin-left: 600px;
+  width:60px;
+  height:60px;
+  border:2px solid rgb(228, 71, 71);
+ }
+ 
+ .main-left{
+   position: absolute;
+
+  margin: 0;
+  padding: 0;
+  width:300px;
+
+  height: 1000px;
+ }
+ a{
+  text-decoration: none;
+  color:#333;
+
+ }
+ ul li{
+  list-style: none;
+ }
+.main-right{
+  height: 700px;
+}
+.main-item{
+  width: 300px;
+  background-color:pink;
+  position: absolute;
+  height: 1200px;
+}
+.music{
+  color: #777;
+}
+.subnav li{
+  height: 80px;
+}
+.subnav a{
+  display: block;
+  font-size: 20px;
+}
+.subnav1 li{
+  height: 100px;
+}

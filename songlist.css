@@ -1,0 +1,161 @@
+.songList{
+  
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 360px;
+    margin-top: 440px;
+    
+   }
+   .songList .songList1 a{
+    width:230px;
+    height:230px;
+    flex-shrink: 0;
+   }
+ 
+   .songList1{
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 360px;
+    margin-top:50px;
+   }
+   .list{
+    position: absolute;
+    float: left;
+    font-size: 30px;
+    color:black;
+    font-weight: 600;
+    margin-top: -60px;
+    margin-left: 400px;
+   }
+   .w1{
+    display: none;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: -519px;
+    margin-left: 376px;
+    color:rgb(228,71,71);
+    font-size:40px;
+    
+   }
+   .w2{
+    display: none;
+    position:absolute;
+    margin-top: -230px;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+
+    margin-left: 637px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w3{
+    display: none;
+    position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: -230px;
+    margin-left: 899px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w4{
+   display: none;
+   position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: -230px;
+    margin-left: 1160px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w5{
+    display: none;
+   position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: -230px;
+    margin-left:1421px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w6{
+    display: none;
+    position: absolute;
+ 
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: 55px;
+    margin-left:376px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w7{
+    display: none;
+    position: absolute;
+   margin-top: 55px;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+  
+    margin-left: 637px;
+    color:rgb(228,71,71);
+    font-size:25px;
+   }
+   .w8{
+    display: none;
+    position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    margin-top: 55px;
+    margin-left:898px;
+    color:rgb(228,71,71);
+    font-size:40px;
+   }
+   .w9{
+    display: none;
+    position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    color:rgb(228,71,71);
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: 1160px;
+}
+.w10{
+    display: none;
+    position: absolute;
+    width:230px;
+    height: 230px;
+    background-color: #0a0909;
+    opacity: 0.5;
+    color:rgb(228,71,71);
+    font-size: 30px;
+    margin-left: 1422px;
+    margin-top: 55px;
+}
+   

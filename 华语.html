@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .list a{
+     width:300px;
+     height: 300px;
+    }
+
+    .a1{
+        display: none;
+        margin-left: 130px;
+        margin-top: -300px;
+        width: 300px;
+        height: 300px;
+        background-color: #0a0909;
+        opacity: 0.6;
+        color: rgb(235, 25, 102);
+        font-size: 40px;
+    }
+    .a2{
+        display: none;
+        margin-left: 692px;
+        margin-top: -300px;
+        width: 300px;
+        height: 300px;
+        background-color: #0a0909;
+        opacity: 0.6;
+        color: rgb(235, 25, 102);
+        font-size: 40px;
+    }
+    .a3{
+        display: none;
+        margin-left: 1252px;
+        margin-top: -300px;
+        width: 300px;
+        height: 300px;
+        background-color: #0a0909;
+        opacity: 0.5;
+        color: rgb(235, 25, 102);
+        font-size: 40px;
+    }
+   
+</style>
+<body>
+    <div class="list">
+        <a class="zbc"><img src="../images/zbc.jpg" width="300"></a>
+        <a class="hcq"><img src="../images/hcq.jpg" width="300"></a>
+        <a class="zxy"><img src="../images/zxy.jpg" width="300"></a>
+    </div>
+        <div class="a1">张碧晨<br>
+        一路上有你
+        </div>
+        <div class="a2">陈百强<br>
+        偏偏喜欢你
+        </div>
+        <div class="a3">
+            张学友<br>
+            偷心
+        </div>
+    
+</body>
+<script>
+    let zbc=document.querySelector('.zbc')
+    let hcq=document.querySelector('.hcq')
+    let zxy=document.querySelector('.zxy')
+    let sun=document.querySelector('.sun')
+    let spans=document.querySelectorAll('span')
+    let a1=document.querySelector('.a1')
+    let a2=document.querySelector('.a2')
+    let a3=document.querySelector('.a3')
+    zbc.addEventListener('mouseover',function(){
+          a1.style.display='block'
+    })
+    hcq.addEventListener('mouseover',function(){
+          a2.style.display='block'
+    })
+    zxy.addEventListener('mouseover',function(){
+          a3.style.display='block'
+    })
+   
+</script>
+</html>

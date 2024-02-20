@@ -1,0 +1,16 @@
+.menu{
+    display: none;
+    position: fixed;
+    right: 0;
+    top:100px;
+    width:200px;
+    height: 300px;
+    background-color:rgb(228,71,71);
+    color: #fff;
+}
+.menu p{
+    font-size: 25px;
+}
+.menu li{
+    font-size: 20px;
+}

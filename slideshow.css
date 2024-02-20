@@ -1,0 +1,58 @@
+.box3{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+   }
+
+   .box3-left{
+    margin-left: px;
+    margin-top:-170px;
+    background-color: #00000050;
+    width:35px;
+    height: 70px;
+    color:#ccc;
+    font-size: 30px;
+   }
+   .box3-right{
+    margin-left: 765px;
+    margin-top: -75px;
+    height: 70px;
+    width: 35px;
+    background-color: #00000050;
+    color:#ccc;
+    font-size: 30px;
+   }
+   .box3-left:hover{
+    background-color: #00000050;
+    color:#fff
+   }
+   .box3-right:hover{
+    background-color: #00000050;
+    color:#fff
+   }
+
+   .indicator li{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #ccc;
+    float: left;
+    margin-right: 12px;
+    opacity: 0.4;
+   }
+   .indicator{
+    position: absolute;
+    margin-left:283px;
+    margin-top: 80px;
+    list-style: none;
+   }
+   .indicator li.active{
+    width:14px;
+    height: 14px;
+    opacity: 1;
+    background-color: rgb(228, 71, 71);
+   }
+   .indicator li:hover{
+    background-color:rgb(228, 71, 71);
+   }
+  
